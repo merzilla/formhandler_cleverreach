@@ -1,0 +1,30 @@
+{
+  "name": "merzilla/formhandler-cleverreach",
+  "description": "Fork from https://github.com/svewap/formhandler_cleverreach .Extend TYPO3 extension formhandler with cleverreach subscription",
+  "type": "typo3-cms-extension",
+  "require": {
+    "typo3/cms": ">= 7.6",
+    "php": "^7.0"
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Sven Wappler",
+      "email": "typo3YYYY@wappler.systems"
+    },
+    {
+      "name": "Ralf Merz",
+      "email": "r.merz@plan-net.ch"
+    }
+  ],
+  "replace": {
+    "formhandler_cleverreach": "self.version",
+    "typo3-ter/formhandler-cleverreach": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "WapplerSystems\\FormhandlerCleverreach\\": "Classes"
+    }
+  }
+}
+
